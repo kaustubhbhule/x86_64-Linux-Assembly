@@ -5,7 +5,6 @@ section .text
     global _start
 
 _start:
-
     mov rax, 4
     add rax, 2
     call _printRAXDigit
@@ -29,7 +28,6 @@ _start:
     syscall
 
 _printRAXDigit:
-
     add rax, 48
     mov [digit], al
     mov rax, 1
