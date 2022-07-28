@@ -9,7 +9,6 @@ section .text
     global _start
 
 _start:
-
     call _printText1
     call _getName
     call _printText2
