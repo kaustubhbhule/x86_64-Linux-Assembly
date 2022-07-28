@@ -21,6 +21,7 @@ _printLoop:
     mov cl, [rax]
     cmp cl, 0
     jne _printLoop
+    
     mov rax, 1
     mov rdi, 1
     pop rsi
